@@ -5,11 +5,48 @@ nav .nav-container {
 	justify-content: space-between;
 	align-items: center;
 }
-nav .nav-logo {
+nav .nav-logo img {
 	max-width: 141px;
 }
 
 ul li {
 	display: inline-block;
 	margin-right: 2rem;
+}
+
+/* main hero */
+.hero-section {
+	background-image: url("../assets/hero-img-fade-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.hero-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-rows: 1fr; */
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+.hero-text {
+	grid-column: 1 / 3;
+	margin: 0 auto;
+}
+.hero-container .hero-btn {
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid var(--mars-red);
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	color: var(--stellar-white);
+	text-align: center;
+	transition: all 0.2s;
+	background-color: var(--mars-red);
+	margin-top: 2rem;
+}
+
+.hero-container .hero-btn:hover {
+	color: var(--mars-red);
+	background-color: var(--stellar-white);
 }
