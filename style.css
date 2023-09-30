@@ -1,7 +1,7 @@
 :root {
 	/* font */
 	--primary-heading: "Montserrat", sans-serif;
-	--secondary-heading: "Futura", "Montserrat", sans-serif;
+	--secondary-heading: "Futura", "Nunito Sans", sans-serif;
 
 	--primary-text: "Space Mono", monospace;
 	--secondary-text: "Montserrat", sans-serif;
@@ -12,4 +12,52 @@
 	--nebula-blue: #2e62a3;
 	--stellar-white: #e7eded;
 	--astral-silver: #b1bcc4;
+}
+
+body {
+	font-family: var(--primary-text);
+	background: var(--cosmic-black);
+	font-size: 1.125rem;
+	line-height: 1.5;
+	color: var(--stellar-white);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100%;
+	scroll-behavior: smooth;
+	/* improve text rendering */
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--primary-heading);
+	margin: 0;
+}
+
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-family: var(--primary-text);
+	font-size: 1.25rem;
+	margin: 0;
 }
