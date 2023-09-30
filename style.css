@@ -1,0 +1,15 @@
+:root {
+	/* font */
+	--primary-heading: "Montserrat", sans-serif;
+	--secondary-heading: "Futura", "Montserrat", sans-serif;
+
+	--primary-text: "Space Mono", monospace;
+	--secondary-text: "Montserrat", sans-serif;
+
+	/* Color */
+	--cosmic-black: #0a0a0a;
+	--mars-red: #9c2e35;
+	--nebula-blue: #2e62a3;
+	--stellar-white: #e7eded;
+	--astral-silver: #b1bcc4;
+}
