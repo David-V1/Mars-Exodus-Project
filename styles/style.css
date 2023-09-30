@@ -65,27 +65,47 @@ ul li {
 	background-color: var(--stellar-white);
 }
 
-/* Mars Red Planet Section */
+/* border fade */
 #fade-boundry {
-	height: 200px;
-	background-image: url("../assets/hero-img-fade-3.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom;
-	transform: rotate(180deg);
-	opacity: 0.01;
+	height: 150px;
 	background: linear-gradient(
-		to top,
-		var(--cosmic-black) 0%,
-		transparent 100%
+		0.5turn,
+		rgba(10, 10, 10, 0.522),
+		rgba(2, 2, 2, 0.498),
+		#000000d9
 	);
 }
-.mars-section {
-	background: linear-gradient(
-		to top,
-		var(--cosmic-black) 0%,
-		transparent 100%
-	);
+
+/* Mars Red Planet Section */
+/* bg */
+.img-wrapper {
+	background-image: url("../assets/stars/bg_space-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+
+.mars-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	align-items: center;
+	padding: 100px 0;
+}
+
+.mars-text {
+	grid-column: 2/ -1;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.mars-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.mars-text {
+		grid-column: 1/ -1;
+	}
 }
 
 .next-section {
