@@ -16,16 +16,6 @@ ul li {
 }
 
 /* main hero */
-/* .background-fade {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	min-width: 300px;
-	min-height: 200px;
-	width: 100%;
-	height: auto;
-} */
 
 .hero-section {
 	background-image: url("../assets/hero-img-fade-3.png");
@@ -109,6 +99,12 @@ ul li {
 }
 
 /* Mars feature cards */
+.img-wrapper-2 {
+	background-image: url("../assets/stars/bg_space-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
 .mars-feature-cards p {
 	color: var(--astral-silver);
 }
