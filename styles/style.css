@@ -108,7 +108,34 @@ ul li {
 	}
 }
 
+/* Mars feature cards */
+.mars-feature-cards p {
+	color: var(--astral-silver);
+}
+.card-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 5rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+	align-items: center;
+}
+.card-image-container {
+	max-width: 100%;
+}
+.card-image-container img {
+	border-radius: 30px;
+}
 .next-section {
 	height: 800px;
 	background: linear-gradient(to top, white 0%, transparent 100%);
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
 }
