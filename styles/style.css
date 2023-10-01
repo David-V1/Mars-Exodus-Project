@@ -1,5 +1,6 @@
 @import url("config.css");
 @import url("shoestrap.css");
+@import url("ico.css");
 
 nav .nav-container {
 	display: flex;
@@ -134,6 +135,10 @@ ul li {
 .next-section {
 	height: 800px;
 	background: linear-gradient(to top, white 0%, transparent 100%);
+}
+
+.card-content .icon-wrapper {
+	display: flex;
 }
 
 .hidden {
