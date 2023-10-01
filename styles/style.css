@@ -137,6 +137,9 @@ ul li {
 	background: linear-gradient(to top, white 0%, transparent 100%);
 }
 
+.card-content-container {
+}
+
 .card-content .icon-wrapper {
 	display: flex;
 }
