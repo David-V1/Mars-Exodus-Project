@@ -132,16 +132,15 @@ ul li {
 .card-image-container img {
 	border-radius: 30px;
 }
+
 .next-section {
 	height: 800px;
 	background: linear-gradient(to top, white 0%, transparent 100%);
 }
 
-.card-content-container {
-}
-
 .card-content .icon-wrapper {
 	display: flex;
+	cursor: pointer;
 }
 
 .hidden {
