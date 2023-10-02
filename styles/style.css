@@ -204,3 +204,10 @@ ul li {
 		margin-bottom: 5rem;
 	}
 }
+/* bg */
+.top-img-wrapper {
+	/* background-image: url("../assets/curvy_1.png"); */
+	/* background-repeat: no-repeat; */
+	/* background-size: contain; */
+	/* background-position: top left; */
+}
