@@ -164,6 +164,7 @@ ul li {
 
 .mars-findings img {
 	max-width: 614px;
+	width: 100%;
 }
 .mars-findings .grid-container {
 	display: grid;
@@ -172,4 +173,34 @@ ul li {
 	margin: 0 auto;
 	padding: 0 1rem;
 	align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+	.mars-findings .grid-container {
+		grid-template-columns: 1fr;
+		grid-gap: 1rem;
+	}
+	.mars-findings .grid-container img {
+		margin-bottom: 5rem;
+	}
+}
+
+.mars-findings .middle {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 1rem;
+	gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+	.mars-findings .middle {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.mars-findings .middle img {
+		margin-bottom: 5rem;
+	}
 }
