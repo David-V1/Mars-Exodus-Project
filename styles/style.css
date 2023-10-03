@@ -216,6 +216,7 @@ ul li {
 		background-size: cover;
 	}
 }
+
 .middle-img-wrapper {
 	background-image: url("../assets/white-bg-2.png");
 	background-repeat: no-repeat;
@@ -227,4 +228,9 @@ ul li {
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: top left; */
+}
+
+.colonization-heading {
+	background-color: var(--stellar-white);
+	color: var(--cosmic-black);
 }
