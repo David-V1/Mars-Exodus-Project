@@ -234,3 +234,24 @@ ul li {
 	background-color: var(--stellar-white);
 	color: var(--cosmic-black);
 }
+
+/* Veridian section */
+.veridian-nova {
+	display: grid;
+	grid-template-columns: 1fr 45% 1fr;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	.veridian-nova {
+		grid-template-columns: 1fr;
+		margin-bottom: 2.5rem;
+	}
+	.veridian-nova .veridian-img-wrapper {
+		/* grid-row-start: 1; */
+	}
+	.veridian-img-wrapper  {
+		margin: 2rem 0;
+	}
+}
+	
