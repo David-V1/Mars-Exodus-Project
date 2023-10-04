@@ -95,7 +95,11 @@ a:hover {
 }
 
 ul {
-	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+ul li::before {
+	content: "•";
+	color: var(--stellar-white);
+	font-size: 45px;
 }
