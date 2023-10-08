@@ -240,6 +240,7 @@ nav .nav-logo img {
 	display: grid;
 	grid-template-columns: 1fr 50% 1fr;
 	gap: 1rem;
+	align-items: center;
 }
 
 .text-content h3 {
@@ -255,11 +256,32 @@ nav .nav-logo img {
 		grid-template-columns: 1fr;
 		margin-bottom: 2.5rem;
 	}
-	.veridian-nova .veridian-img-wrapper {
-		/* grid-row-start: 1; */
-	}
+
 	.veridian-img-wrapper {
 		margin: 2rem 0;
+	}
+
+	.veridian-nova .text-content {
+		max-width: 65%;
+	}
+	.veridian-nova .text-content:nth-child(3) {
+		margin-left: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.veridian-nova {
+		grid-template-columns: 1fr;
+		margin-bottom: 2.5rem;
+	}
+
+	.veridian-nova .text-content {
+		max-width: 100%;
+	}
+
+	.veridian-nova .text-content:nth-child(3),
+	.veridian-nova .text-content:nth-child(1) {
+		margin: 10px 0 0 20px;
 	}
 }
 
@@ -270,9 +292,11 @@ nav .nav-logo img {
 	gap: 1rem;
 	align-items: center;
 }
+
 .img-wrapper {
 	text-align: center;
 }
+
 .img-wrapper img {
 	max-width: 80%;
 	margin: 0 auto;
@@ -283,9 +307,11 @@ nav .nav-logo img {
 		grid-template-columns: 1fr;
 		margin-bottom: 2.5rem;
 	}
+
 	.elysium-prime .img-wrapper {
 		grid-row-start: 1;
 	}
+
 	.elysium-prime .img-wrapper img {
 		max-width: 100%;
 	}
