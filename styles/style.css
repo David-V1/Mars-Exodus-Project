@@ -326,3 +326,9 @@ nav .nav-logo img {
 	color: var(--stellar-white);
 	font-size: 45px;
 }
+.text-content .bp-flex-container {
+	display: flex;
+}
+.text-content .bp-flex-container ul li {
+	display: inline-block;
+}
