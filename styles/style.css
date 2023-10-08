@@ -11,7 +11,7 @@ nav .nav-logo img {
 	max-width: 141px;
 }
 
-ul li {
+.nav-links .nav-bp li {
 	display: inline-block;
 	margin-right: 2rem;
 }
@@ -250,11 +250,11 @@ ul li {
 	.veridian-nova .veridian-img-wrapper {
 		/* grid-row-start: 1; */
 	}
-	.veridian-img-wrapper  {
+	.veridian-img-wrapper {
 		margin: 2rem 0;
 	}
 }
-	
+
 /* Elysium section */
 .elysium-prime {
 	display: grid;
@@ -282,7 +282,13 @@ ul li {
 		max-width: 100%;
 	}
 
-	.img-wrapper  {
+	.img-wrapper {
 		text-align: left;
 	}
+}
+
+.text-content ul li::before {
+	content: "•";
+	color: var(--stellar-white);
+	font-size: 45px;
 }
