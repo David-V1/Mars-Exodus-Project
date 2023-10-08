@@ -238,8 +238,16 @@ nav .nav-logo img {
 /* Veridian section */
 .veridian-nova {
 	display: grid;
-	grid-template-columns: 1fr 45% 1fr;
+	grid-template-columns: 1fr 50% 1fr;
 	gap: 1rem;
+}
+
+.text-content h3 {
+	font-size: 1.125rem;
+}
+
+.text-content p {
+	font-size: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -286,7 +294,7 @@ nav .nav-logo img {
 		text-align: left;
 	}
 }
-
+/* bp */
 .text-content ul li::before {
 	content: "•";
 	color: var(--stellar-white);
