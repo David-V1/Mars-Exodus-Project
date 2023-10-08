@@ -18,7 +18,6 @@ body {
 	font-family: var(--primary-text);
 	background: var(--cosmic-black);
 	font-size: 1.125rem;
-	line-height: 1.5;
 	color: var(--stellar-white);
 	margin: 0;
 	padding: 0;
@@ -49,12 +48,15 @@ h6 {
 
 h1 {
 	font-size: 3rem;
+	line-height: 1.5;
 }
 h2 {
 	font-size: 2.5rem;
+	line-height: 1.2;
 }
 h3 {
 	font-size: 2rem;
+	line-height: 1;
 }
 
 p,
