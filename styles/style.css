@@ -242,6 +242,12 @@ nav .nav-logo img {
 }
 
 /* Veridian section */
+.marble-bg-top-wrapper {
+	background-image: url("../assets/white-bg-1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
 .veridian-nova {
 	display: grid;
 	grid-template-columns: 1fr 50% 1fr;
@@ -292,6 +298,12 @@ nav .nav-logo img {
 }
 
 /* Elysium section */
+.marble-bg-med-wrapper {
+	background-image: url("../assets/white-bg-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -334,6 +346,12 @@ nav .nav-logo img {
 
 /* Aetheris section */
 /* grid | img-wrapper */
+.marble-bg-bottom-wrapper {
+	background-image: url("../assets/white-bg-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
 .aetheris-alpha .text-content {
 	margin-left: 20%;
 }
