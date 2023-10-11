@@ -227,7 +227,13 @@ nav .nav-logo img {
 	background-image: url("../assets/white-bg-3.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-position: top left; */
+}
+
+/* Mars Colonization Section */
+
+.mars-colonization {
+	background-color: var(--stellar-white);
+	color: var(--cosmic-black);
 }
 
 .colonization-heading {
