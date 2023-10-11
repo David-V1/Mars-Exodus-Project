@@ -237,16 +237,15 @@ nav .nav-logo img {
 }
 
 .colonization-heading {
+	background-image: url("../assets/marble-bg-3.png");
 	background-color: var(--stellar-white);
 	color: var(--cosmic-black);
 }
 
 /* Veridian section */
 .marble-bg-top-wrapper {
-	background-image: url("../assets/white-bg-1.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top left;
+	background-image: url("../assets/marble-bg-2.png");
+	background-position: center;
 }
 .veridian-nova {
 	display: grid;
@@ -299,10 +298,9 @@ nav .nav-logo img {
 
 /* Elysium section */
 .marble-bg-med-wrapper {
-	background-image: url("../assets/white-bg-2.png");
+	background-image: url("../assets/marble-bg-2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top left;
 }
 .grid {
 	display: grid;
@@ -347,10 +345,8 @@ nav .nav-logo img {
 /* Aetheris section */
 /* grid | img-wrapper */
 .marble-bg-bottom-wrapper {
-	background-image: url("../assets/white-bg-3.png");
-	background-repeat: no-repeat;
+	background-image: url("../assets/marble-br-3.png");
 	background-size: cover;
-	background-position: top left;
 }
 .aetheris-alpha .text-content {
 	margin-left: 20%;
