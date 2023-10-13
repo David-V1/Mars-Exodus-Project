@@ -382,3 +382,34 @@ nav .nav-logo img {
 		padding: 0 0;
 	}
 }
+
+/* Footer */
+.footer-container {
+	background-color: var(--cosmic-black);
+	color: var(--stellar-white);
+	padding: 2rem 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.footer-logo {
+	max-width: 141px;
+}
+
+.footer-links {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.footer-links ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer-links ul li {
+	/* margin: 2rem; */
+	width: 100%;
+	align-self: flex-start;
+}
