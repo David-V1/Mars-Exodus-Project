@@ -181,7 +181,7 @@ nav .nav-logo img {
 		grid-gap: 1rem;
 	}
 	.mars-findings .grid-container img {
-		margin-bottom: 5rem;
+		/* margin-bottom: 5rem; */
 	}
 }
 
@@ -201,7 +201,7 @@ nav .nav-logo img {
 		gap: 1rem;
 	}
 	.mars-findings .flex-container img {
-		margin-bottom: 5rem;
+		/* margin-bottom: 5rem; */
 	}
 }
 /* bg */
@@ -265,11 +265,10 @@ nav .nav-logo img {
 @media screen and (max-width: 768px) {
 	.veridian-nova {
 		grid-template-columns: 1fr;
-		margin-bottom: 2.5rem;
 	}
 
 	.veridian-img-wrapper {
-		margin: 2rem 0;
+		padding: 2rem 0;
 	}
 
 	.veridian-nova .text-content {
@@ -283,7 +282,6 @@ nav .nav-logo img {
 @media screen and (max-width: 480px) {
 	.veridian-nova {
 		grid-template-columns: 1fr;
-		margin-bottom: 2.5rem;
 	}
 
 	.veridian-nova .text-content {
@@ -321,7 +319,6 @@ nav .nav-logo img {
 @media screen and (max-width: 768px) {
 	.elysium-prime {
 		grid-template-columns: 1fr;
-		margin-bottom: 2.5rem;
 	}
 
 	.elysium-prime .text-content {
@@ -345,7 +342,7 @@ nav .nav-logo img {
 /* Aetheris section */
 /* grid | img-wrapper */
 .marble-bg-bottom-wrapper {
-	background-image: url("../assets/marble-br-3.png");
+	background-image: url("../assets/marble-bg-3.png");
 	background-size: cover;
 }
 .aetheris-alpha .text-content {
@@ -355,7 +352,7 @@ nav .nav-logo img {
 @media screen and (max-width: 768px) {
 	.aetheris-alpha {
 		grid-template-columns: 1fr;
-		margin-bottom: 2.5rem;
+		/* margin-bottom: 2.5rem; */
 	}
 
 	.aetheris-alpha .rocky-img-wrapper {
@@ -406,7 +403,6 @@ nav .nav-logo img {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-
 }
 .footer-links ul li {
 	width: 100%;
@@ -433,5 +429,4 @@ nav .nav-logo img {
 		margin: 1rem 0;
 		text-align: center;
 	}
-	
 }
