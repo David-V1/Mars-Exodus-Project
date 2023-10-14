@@ -3,6 +3,9 @@ const cardContent = document.querySelectorAll(
 	".card-content-container .card-content"
 );
 const topicIcon = document.querySelectorAll(".card-content .icon-wrapper");
+const mobileCarouselContainer = document.querySelector(
+	"mobile-carousel-container"
+);
 
 function selectedIcon(topicNum) {
 	topicIcon.forEach((icon) => {
@@ -63,3 +66,5 @@ function selectedTopic() {
 }
 
 selectedTopic();
+
+function mobileCarousel() {}
