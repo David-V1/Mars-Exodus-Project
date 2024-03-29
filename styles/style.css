@@ -59,12 +59,7 @@ nav .nav-logo img {
 /* border fade */
 #fade-boundry {
 	height: 150px;
-	background: linear-gradient(
-		0.5turn,
-		rgba(10, 10, 10, 0.522),
-		rgba(2, 2, 2, 0.498),
-		#000000d9
-	);
+	background: linear-gradient(0.5turn, rgba(10, 10, 10, 0.522), rgba(2, 2, 2, 0.498), #000000d9);
 }
 
 /* Mars Red Planet Section */
@@ -112,9 +107,9 @@ nav .nav-logo img {
 }
 .card-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 200px 1fr;
 	grid-template-rows: 1fr;
-	grid-gap: 5rem;
+	grid-gap: 1rem;
 	margin: 0 auto;
 	padding: 0 1rem;
 	align-items: center;
@@ -126,6 +121,27 @@ nav .nav-logo img {
 	}
 }
 
+.bullet-points-btns-container {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (max-width: 768px) {
+	.bullet-points-btns-container {
+		flex-direction: row;
+	}
+}
+
+/* Bullet Points Buttons */
+.topic-btn {
+	border: none;
+	background-color: transparent;
+	color: var(--stellar-white);
+}
+
 .card-image-container {
 	max-width: 100%;
 }
@@ -135,11 +151,7 @@ nav .nav-logo img {
 
 .next-section {
 	height: 400px;
-	background: linear-gradient(
-		to top,
-		var(--stellar-white) 0%,
-		transparent 100%
-	);
+	background: linear-gradient(to top, var(--stellar-white) 0%, transparent 100%);
 }
 
 .card-content .icon-wrapper {

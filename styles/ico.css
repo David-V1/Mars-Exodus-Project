@@ -2,8 +2,7 @@
 	font-family: "icomoon";
 	src: url("../assets/icons/fonts/icomoon.eot") format("embedded-opentype"),
 		url("../assets/icons/fonts/icomoon.ttf") format("truetype"),
-		url("../assets/icons/fonts/icomoon.woff") format("woff"),
-		url("../assets/icons/fonts/icomoon.svg") format("svg");
+		url("../assets/icons/fonts/icomoon.woff") format("woff"), url("../assets/icons/fonts/icomoon.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -29,9 +28,13 @@
 	content: "\e902";
 	font-size: 32px;
 	padding-right: 1rem;
+	display: inline-block; /* Ensure this is set so padding and size are respected */
+	vertical-align: middle; /* Adjusts the alignment of the icon if needed */
 }
 .icon-circle:before {
 	content: "\e903";
 	font-size: 32px;
 	padding-right: 1rem;
+	display: inline-block; /* Ensure this is set so padding and size are respected */
+	vertical-align: middle; /* Adjusts the alignment of the icon if needed */
 }
