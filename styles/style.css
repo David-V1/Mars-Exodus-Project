@@ -107,7 +107,7 @@ nav .nav-logo img {
 }
 .card-container {
 	display: grid;
-	grid-template-columns: 1fr 200px 1fr;
+	grid-template-columns: 1fr 150px 1fr;
 	grid-template-rows: 1fr;
 	grid-gap: 1rem;
 	margin: 0 auto;
@@ -345,6 +345,7 @@ nav .nav-logo img {
 	content: "•";
 	color: var(--stellar-white);
 	font-size: 45px;
+	display: none;
 }
 .text-content .bp-flex-container {
 	display: flex;
