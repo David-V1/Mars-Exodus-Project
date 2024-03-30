@@ -218,7 +218,7 @@ nav .nav-logo img {
 }
 /* bg */
 .top-img-wrapper {
-	background-image: url("../assets/white-bg-1.png");
+	background-image: url("../assets/white-bg-1-fd-strong.png");
 	background-repeat: no-repeat;
 	background-size: 120%;
 	background-position: left;
@@ -230,17 +230,16 @@ nav .nav-logo img {
 }
 
 .middle-img-wrapper {
-	background-image: url("../assets/white-bg-2.png");
+	background-image: url("../assets/white-bg-2-fd-strong.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: top left; */
 }
 .bottom-img-wrapper {
-	background-image: url("../assets/white-bg-3.png");
+	background-image: url("../assets/white-bg-3-fd-strong.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
-	background-color: rgba(209, 207, 207, 0.441);
 }
 
 /* Mars Colonization Section */
